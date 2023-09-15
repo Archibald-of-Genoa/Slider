@@ -84,8 +84,33 @@ a {
     margin-bottom: 4.2rem;
 }
 
+.img-small__container {
+    width: 206px;
+    height: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+
 .completed__img-small {
     display: none;
+}
+
+.dot {
+    border-radius: 50%;
+    background-color: #fff;
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    cursor: pointer;
+
+}
+
+.left-arrow,
+.right-arrow {
+    cursor: pointer;
 }
 
 .subheading {
@@ -162,3 +187,4 @@ ul.locations {
     height: 1px;
     left: 0;
 }
+
