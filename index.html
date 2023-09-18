@@ -32,7 +32,7 @@
         <div class="clarifying-data__wrapper">
           <div class="clarifying-point">
             <h3 class="subheading">city:</h3>
-            <p class="completed__text">
+            <p class="completed__text city-text">
               Rostov-on-Don <br />
               LCD admiral
             </p>
@@ -40,12 +40,12 @@
 
           <div class="clarifying-point">
             <h3 class="subheading">apartment area:</h3>
-            <p class="completed__text">81 m2</p>
+            <p class="completed__text area-text">81 m2</p>
           </div>
 
-          <div class="clarifying-point">
+          <div class="clarifying-point" id="repair-time-point">
             <h3 class="subheading">Repair time:</h3>
-            <p class="completed__text">3.5 months</p>
+            <p class="completed__text repair-time-text">3.5 months</p>
           </div>
 
           <div class="clarifying-point">
@@ -60,9 +60,9 @@
             <path d="M5 7L35 7" stroke="white" stroke-width="2" />
             <path d="M10 1L4 7L10 13" fill="white" />
           </svg>
-          <div class="dot"></div>
-          <div class="dot"></div>
-          <div class="dot"></div>
+          <div class="dot dot1"></div>
+          <div class="dot dot2"></div>
+          <div class="dot dot3"></div>
           <svg class="right-arrow" xmlns="http://www.w3.org/2000/svg" width="40" height="14" viewBox="0 0 40 14"
             fill="none">
             <path d="M5 7L35 7" stroke="white" stroke-width="2" />
@@ -78,20 +78,26 @@
         <div class="locations__wrapper">
           <ul class="locations">
             <li class="locations__item">
-              <a class="locations__link active" href="#">Rostov-on-Don, Admiral</a>
+              <a class="locations__link admiral active" data-city="Rostov-on-Don" data-area="81 m2" data-repair-time="3.5 months" href="#">Rostov-on-Don, Admiral</a>
             </li>
             <li class="locations__item">
-              <a class="locations__link" href="#">Sochi Thieves</a>
+              <a class="locations__link sochi" data-city="Sochi Thieves" data-area="105 m2" data-repair-time="4 months" href="#">Sochi Thieves</a>
             </li>
             <li class="locations__item">
-              <a class="locations__link" href="#">Rostov-on-Don Patriotic</a>
+              <a class="locations__link rostov" data-city="Rostov-on-Don Patriotic" data-area="93 m2" data-repair-time="3 months" href="#">Rostov-on-Don Patriotic</a>
             </li>
           </ul>
         </div>
 
-        <img class="completed__img" src="/images/image 1.png" alt="Фото интерьера 1" />
-        <img class="completed__img2" src="/images/image 2.png" alt="Фото интерьера 2" />
-        <img class="completed__img3" src="/images/image 3.png" alt="Фото интерьера 3" />
+        <div class="carousel__window">
+          <div class="slider-line">
+            <img class="completed__img img1" src="/images/image 1.png" alt="Фото интерьера 1" />
+            <img class="completed__img img2" src="/images/image 2.png" alt="Фото интерьера 2" />
+            <img class="completed__img img3" src="/images/image 3.png" alt="Фото интерьера 3" />
+          </div>
+        </div>
+
+
       </div>
     </div>
   </section>
